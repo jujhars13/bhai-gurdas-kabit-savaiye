@@ -8,9 +8,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build":"NODE_ENV=production node_modules/.bin/webpack build",
-    "watch":"NODE_ENV=development node_modules/.bin/webpack --watch",
-    "serve":"(cd build && ../node_modules/.bin/reload -e \"html|js|css|json|yml\")"
+    "build": "NODE_ENV=production node_modules/.bin/webpack build",
+    "watch": "NODE_ENV=development node_modules/.bin/webpack --watch",
+    "serve": "(cd build && ../node_modules/.bin/reload -e \"html|js|css|json|yml\")"
   },
   "repository": {
     "type": "git",
@@ -24,8 +24,12 @@
   "homepage": "https://github.com/jujhars13/bhai-gurdas-kabit-savaiye#readme",
   "devDependencies": {
     "copy-webpack-plugin": "^7.0.0",
+    "eslint": "^7.20.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
     "html-webpack-plugin": "^4.5.1",
-    "prettier": "^2.2.1",
     "reload": "^3.1.1",
     "webpack": "^5.16.0",
     "webpack-cli": "^4.4.0"
