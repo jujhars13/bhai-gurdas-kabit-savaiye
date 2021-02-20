@@ -2,7 +2,7 @@
 
 Currently hosted at [https://ks.jujhar.com]()
 
-Quick and simple mobile friendly website to simplify the reading the Kabit Savaiye of Bhai Gurdas Jee 
+Quick and simple mobile friendly website to simplify the reading the Kabit Savaiye of Bhai Gurdas Jee
 
 Original Savaiye [data](src/data) courtesy of the [ShabadOS Project](https://github.com/jujhars13/database)
 
@@ -14,11 +14,12 @@ Deploying using github pages (hence the unorthodox use of the `/docs/` directory
 ## Building
 
 ```bash
-# OPTIONAL use the awesome `reload` which auto-refreshes your browser on change using websockets
-# `npm install -g webpack webpack-cli reload`
-webpack --watch
-(cd docs && reload -e "html|js|css|json|yml")
-# browse to http://localhost:8080/
+# for prod release
+npm run build
+
+# or if in dev, browse to http://localhost:8080/
+npm run watch
+npm run serve
 ```
 
 ## Licence

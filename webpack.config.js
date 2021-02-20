@@ -2,10 +2,11 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 
+const environment = process.env?.NODE_ENV ? process.env?.NODE_ENV : 'development';
+
 module.exports = {
   entry: './src/index.js',
-  //mode: 'production',
-  mode: 'development',
+  mode: environment,
   output: {
     filename: 'js/main.js',
     path: path.resolve(__dirname, 'docs'),
