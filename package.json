@@ -8,9 +8,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build":"NODE_ENV=production node_modules/.bin/webpack --serve",
+    "build":"NODE_ENV=production node_modules/.bin/webpack build",
     "watch":"NODE_ENV=development node_modules/.bin/webpack --watch",
-    "serve":"(cd docs && ../node_modules/.bin/reload -e \"html|js|css|json|yml\")"
+    "serve":"(cd build && ../node_modules/.bin/reload -e \"html|js|css|json|yml\")"
   },
   "repository": {
     "type": "git",
