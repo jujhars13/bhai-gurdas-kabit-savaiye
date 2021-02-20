@@ -4,6 +4,8 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 const environment = process.env?.NODE_ENV ? process.env?.NODE_ENV : 'development';
 
+console.log(`Webpack running in ${environment}`);
+
 module.exports = {
   entry: './src/index.js',
   mode: environment,
