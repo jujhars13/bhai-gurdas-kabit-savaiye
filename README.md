@@ -4,7 +4,7 @@ Currently hosted at [https://ks.jujhar.com]()
 
 Quick and simple mobile friendly website to simplify the reading the Kabit Savaiye of Bhai Gurdas Jee 
 
-Original Savaiye data courtesy of the [ShabadOS Project](https://github.com/jujhars13/database)
+Original Savaiye [data](src/data) courtesy of the [ShabadOS Project](https://github.com/jujhars13/database)
 
 
 ## Deployment
