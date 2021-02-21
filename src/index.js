@@ -1,9 +1,9 @@
 const parsedUrl = new URL(window.location.href);
 const bani = parsedUrl.searchParams.get('b') || 'ks';
+const validGurbani = ['ks'];
 const rawSection = Number(parsedUrl.searchParams.get('s')) || 1;
 // zero pad the section number
 const section = rawSection <= 999 ? `00${rawSection}`.slice(-3) : rawSection;
-const validGurbani = ['ks'];
 
 // TODO read state from cookie
 // TODO if cookie > URL, change URL to match
@@ -20,7 +20,7 @@ const initialize = () => {
   return fetch(`data/${bani}/${section}.json`)
     .then(response => {
       if (!response.ok) {
-        throw new Error(`HTTP error  + ${response.status}`);
+        throw new Error(`HTTP error: ${response.status}`);
       }
       return response.json();
     })

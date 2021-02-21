@@ -9,6 +9,10 @@
   color:whitesmoke;
 }
 
+.translation-english, .translation-punjabi{
+color:grey
+}
+
 .bani{
   padding:30px;
 }
