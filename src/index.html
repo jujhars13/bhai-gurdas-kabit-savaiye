@@ -2,21 +2,51 @@
 
 <html>
   <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Read popular Sikh scripture in small chunks" />
     <title>Kabit Savaiye - Bhai Gurdas Ji</title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/main.css" />
  </head>
-  <body>
-    <div class="container">
-      <h1>Kabit Savaiye</h1>
+  <body class="bg-dark">
 
-      <hr />
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/">Sukhmani: <span class='section-number' id='section-number'></span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
+          aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarColor01">
+          <ul class="navbar-nav mr-auto">
+            <!-- <li class="nav-item active">
+              <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+            </li> -->
+            <!-- <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li> -->
+          </ul>
+        </div>
+      </nav>
+      <div class="container-fluid">
 
-      <div id="container" class="container"></div>
+        <button class='btn btn-secondary btn-lg prev-button'>Back</button>
+        <button class='btn btn-primary btn-lg next-button'>Next</button>
+
+        <div class='bani gurmukhi' id='bani'></div>
+
+        <button class='btn btn-secondary btn-lg prev-button'>Back</button>
+        <button class='btn btn-primary btn-lg next-button'>Next</button>
+      </div>
+
+      <div class="alert alert-danger d-none" role="alert" id='debug'></div>
 
     </div>
 
