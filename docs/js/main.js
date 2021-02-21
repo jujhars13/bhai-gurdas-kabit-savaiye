@@ -1,0 +1,1 @@
+(()=>{const e=()=>{console.log("satnaam")};"loading"!==document.readyState?e():document.addEventListener("DOMContentLoaded",e)})();
