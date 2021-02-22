@@ -1,6 +1,6 @@
 # Bhai Gurdas Ji Kabit Savaiye
 
-Currently hosted at [https://ks.jujhar.com]()
+Currently hosted at [https://ks.jujhar.com](https://ks.jujhar.com)
 
 Quick and simple mobile friendly website to simplify the reading the Kabit Savaiye of Bhai Gurdas Jee
 
@@ -14,13 +14,17 @@ Deploying using github pages (hence the unorthodox use of the `/docs/` directory
 ## Building
 
 ```bash
-# for prod release
+# install deps locally
+npm install
+
+# to build prod release in /docs
 npm run build
 
-# or if in dev, browse to http://localhost:8080/
+# or dev workflow
+#browse to http://localhost:8080/
 npm run watch
 npm run serve
 ```
 
 ## Licence
-[GNU GPL 3.0][LICENSE]
+[GNU GPL 3.0](LICENSE)
