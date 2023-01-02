@@ -29,7 +29,7 @@
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.3.1",
-    "html-webpack-plugin": "^4.5.1",
+    "html-webpack-plugin": "^5.5.0",
     "reload": "^3.1.1",
     "webpack": "^5.16.0",
     "webpack-cli": "^4.4.0"
